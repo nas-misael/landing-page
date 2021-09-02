@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pizzaria Famiglia</title>
+        <link rel="shortcut icon" href="./assets/img/pizza-icon.png" type="image/x-icon">
+        <link href="./assets/css/normalize.css" rel="stylesheet" />
+        <link href="./assets/css/reset.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./assets/css/nav.css" />
+        <link rel="stylesheet" href="./assets/css/banner.css">
+        <link rel="stylesheet" href="./assets/css/receitas.css">
+        <link rel="stylesheet" href="./assets/css/quemSomos.css">
+        <link rel="stylesheet" href="./assets/css/footer.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+      <header class="cabecalho">
+          <a href="./index.html"><img src="./assets/img/italy.png" style="margin-top: 5px;" alt="Logo Pizzaria Famiglia"></a>
+          <p style="color: #011627;">Pizzaria Famiglia</p>
+          <nav class="menu">
+            <ul class="menu-lista">
+                <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                <li class="menu-item"><a href="#pedidos" class="menu-link">Pedido</a></li>
+                <li class="menu-item"><a href="#retirada" class="menu-link">Retirada</a></li>
+                <li class="menu-item"><a href="#quemSomos" class="menu-link">Quem Somos</a></li>
+            </ul>
+        </nav>
+      </header>
+      <section class="caixa1" id="home">
+            <h2 class="conteudo-titulo">
+                <span class="titulo">
+                    Conheça a melhor pizzaria da cidade!
+                </span>
+            </h2>
+      </section>
+    <section class="conteudo" id="receitas">
+        <h3>Você já conhece nossos sabores?</h3>
+        <p>
+            A Pizzaria Famiglia é referência na região! Contamos com receitas e sabores diretamente da Itália. 
+        </p>
+        <div class="divReceita">
+            <div class="conteiner">
+                <img src="./assets/img/receitas/pizza1.jpg" alt="Pizza Italiana com frango">
+                <h3 class="tituloReceita">Italiana com frango</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis imperdiet ipsum, et ullamcorper dui faucibus eget. Proin vitae sagittis nisl, quis convallis orci.</p>
+                <a href="#pedidos" id="mixvegais">Faça seu pedido!</a>
+            </div>
+        </div>
+        <div class="divReceita">
+            <img src="./assets/img/receitas/pizza2.jpg" alt="Pizza Margerita Clássica">
+            <h3 class="tituloReceita">Margerita Clássica</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis imperdiet ipsum, et ullamcorper dui faucibus eget. Proin vitae sagittis nisl, quis convallis orci.</p>
+            <a href="#pedidos" id="beterrabas">Faça seu pedido!</a>
+        </div>
+        <div class="divReceita">
+            <img src="./assets/img/receitas/pizza4.jpg" alt="Pizza Pepperoni">
+            <h3 class="tituloReceita">Pepperoni</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis imperdiet ipsum, et ullamcorper dui faucibus eget. Proin vitae sagittis nisl, quis convallis orci.</p>
+            <a href="#pedidos" id="pimentoes">Faça seu pedido!</a>
+        </div>
+        <div class="divReceita">
+            <img src="./assets/img/receitas/pizza3.jpg" alt="Pizza Salame e azeitona">
+            <h3 class="tituloReceita">Salame e azeitona</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis imperdiet ipsum, et ullamcorper dui faucibus eget. Proin vitae sagittis nisl, quis convallis orci.</p>
+            <a href="#pedidos" id="oriental">Faça seu pedido!</a>
+        </div>
+        <div class="divReceita">
+            <img src="./assets/img/receitas/pizza5.jpg" alt="Pizza Azeitona e Pimentão">
+            <h3 class="tituloReceita">Azeitona e Pimentão</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis imperdiet ipsum, et ullamcorper dui faucibus eget. Proin vitae sagittis nisl, quis convallis orci.</p>
+            <a href="#pedidos" id="kiwi">Faça seu pedido!</a>
+        </div>
+        
+    </section>
+    <section class="caixa2">
+        <h2 class="conteudo-titulo">
+            <span class="titulo">
+                Sempre é uma boa hora para pedir uma pizza!
+            </span>
+        </h2>
+    </section>
+    <section class="conteudo" id="pedidos">
+            <h1 id="titulo">Realize seu pedido aqui!</h1>
+            <br>
+            <p id="subtitulo">Complete com as informações necessárias:</p>
+            <br><br>
+        </div>
+        <form autocomplete="off" onsubmit="event.preventDefault();">
+            
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+    
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" id="sobrenome" name="sobrenome" required>
+                </div>
+            
+            <div class="campo">
+                <label for="telefone"><strong>Telefone (celular)</strong></label>
+                <input type="tel" id="telefone" name="telefone" maxlength="10" required>
+            </div>
+        
+            <div class="campo">
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="email" id="email" name="email"  required>
+            </div>
+            
+            <div>
+                <select name="categoriaPedido" id="categoriaPedido" required>
+                    <option value="" disabled selected>Escolha a categoria</option>
+                    <option value="bebidas">Bebidas</option>
+                    <option value="pizzas">Pizzas</option>
+                    <option value="porcoes">Porções</option>
+                </select>
+            </div>
+            <br/>
+            <div>
+                <select name="pedido" id="pedido" required>
+                    <option value="" disabled selected>Pedido</option>
+                </select>
+            </div>
+                <br/>
+            <div class="hide" id="tamanho">
+                <select name="tamPizza" id="tamPizza">
+                    <option value="" disabled selected>Escolha o tamanho</option>
+                    <option value="Pequena - R$ 40,00">Pequena - R$ 40,00</option>
+                    <option value="Media - R$ 60,00">Média - R$ 60,00</option>
+                    <option value="Grande - R$ 90,00">Grande - R$ 90,00</option>
+                </select>
+            </div>
+            <button id="botao" type="submit">Concluído</button>
+        </form>
+    </section>
+    <section class="caixa3">
+        <h2 class="conteudo-titulo">
+            <span class="titulo">
+                Não deixe de registrar os momentos especiais!
+            </span>
+        </h2>
+    </section>
+    <section class="conteudo" id="retirada">
+        <h1 id="titulo">Retire seu pedido aqui!</h1>
+        <br>
+        <p id="subtitulo">Venha conferir o seu pedido na Pizzaria Famiglia:</p>
+        <br><br>
+    </div>
+
+    <div class="divReceita">
+    <div id="catalogo">
+        <h3 class="tituloReceita" id="tituloPedido"></h3>
+        <div id="tempo" class="subtitulo"></div>
+        <div id="textoPedidos" class="subtitulo">
+        </div>
+        <button id="retirarPedido" class="botao2 hide">Confirmar retirada!</button>
+    </div>
+    </div>
+    </section>
+  <section class="caixa4" id="quemsomos">
+    <h2 class="conteudo-titulo">
+        <span class="titulo">
+            Quem somos
+        </span>
+    </h2>
+  </section>
+  <section class="conteudo" id="quemSomos">
+    <h3>Conheça o nosso time</h3>
+    <p id="efeito">
+        Contamos com os melhores profissionais na área!
+     </p>
+    <div class="time">
+        <picture>
+            <img src="./assets/img/pessoas/pizzaiolo.jpg" alt="Pizzaiolo Ricardo">
+            <h4>Pizzaiolo Ricardo</h4>
+            <p>Conheça Ricardo, nossa pizzaiolo de cozinha!</p>
+        </picture>               
+    </div>
+    <div class="time">
+        <picture>
+            <img src="./assets/img/pessoas/atendente.jpg" alt="Marcela atendente">
+            <h4>Atendente Marcela</h4>
+            <p>Conheça Marcela, quem cuida atende você!</p>
+        </picture>               
+    </div>
+    <div class="time">
+        <picture>
+            <img src="./assets/img/pessoas/chef.jpg" alt="Chef Pedro">
+            <h4>Chef Pedro</h4>
+            <p>Conheça Pedro, nosso chef!</p>
+        </picture>               
+    </div>
+  </section>
+  <a href="#home" id="voltainicio" class="nav-links"><img src="./assets/img/subir.png" alt="Voltar ao início"
+    style="height: 70px; width: 70px;"></a>
+  <footer>
+      <div class="rodape">
+          <a href="./index.html"><img src="./assets/img/sucess-code.jpg" alt="Logo Sucess Code"></a>
+          <p>&copy Copyright 2021 - Equipe Sucess Code.</p>
+          <button type="button" id="whats">
+            <i id="whatsApp"> 
+                
+            </i>
+            Fale por WhatsApp 
+          </button>
+          <button type="button" id="phone">
+            <i id="ligacao"> 
+                
+            </i>
+            Ligue Agora mesmo
+          </button>
+      </div>
+  </footer>
+  <script src="./assets/js/variaveis.js"></script>
+  <script src="./assets/js/pedido.js"></script>
+</body>
+</html>
