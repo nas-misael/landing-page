@@ -13,21 +13,24 @@
         <link rel="stylesheet" href="./assets/css/receitas.css">
         <link rel="stylesheet" href="./assets/css/quemSomos.css">
         <link rel="stylesheet" href="./assets/css/footer.css">
+        <link rel="stylesheet" href="./assets/css/mobile.css" media="screen and (max-width: 480px)">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
       <header class="cabecalho">
           <a href="./index.html"><img src="./assets/img/italy.png" style="margin-top: 5px;" alt="Logo Pizzaria Famiglia"></a>
           <p style="color: #011627;">Pizzaria Famiglia</p>
           <nav class="menu">
-            <ul class="menu-lista">
-                <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                <li class="menu-item"><a href="#pedidos" class="menu-link">Pedido</a></li>
-                <li class="menu-item"><a href="#retirada" class="menu-link">Retirada</a></li>
-                <li class="menu-item"><a href="#quemSomos" class="menu-link">Quem Somos</a></li>
-            </ul>
+                      <ul class="menu-lista" id="myLinks">
+                          <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                          <li class="menu-item"><a href="#pedidos" class="menu-link">Pedido</a></li>
+                          <li class="menu-item"><a href="#retirada" class="menu-link">Retirada</a></li>
+                          <li class="menu-item"><a href="#quemSomos" class="menu-link">Quem Somos</a></li>
+                        </ul>
+                        <a href="#" class="icon esconder" onclick="myFunction()">
+                        <i class="fa fa-bars esconder"></i></a>
         </nav>
       </header>
       <section class="caixa1" id="home">
@@ -195,8 +198,7 @@
         </picture>               
     </div>
   </section>
-  <a href="#home" id="voltainicio" class="nav-links"><img src="./assets/img/subir.png" alt="Voltar ao início"
-    style="height: 70px; width: 70px;"></a>
+  <a href="#home" id="voltainicio" class="nav-links"><img src="./assets/img/subir.png" alt="Voltar ao início"></a>
   <footer>
       <div class="rodape">
           <a href="./index.html"><img src="./assets/img/sucess-code.jpg" alt="Logo Sucess Code"></a>

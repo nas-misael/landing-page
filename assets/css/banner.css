@@ -4,6 +4,7 @@ body, html {
     color: #777;
     height: 100%;
     width: 100vw;
+    scroll-behavior: smooth;
 }
 
 .conteudo {
@@ -38,6 +39,11 @@ p {
     width: 8em;
     margin-top: 2.5em;
   }
+
+#voltainicio img {
+    height: 70px;
+    width: 70px;
+}
 
 .conteudo-titulo {
     position: absolute;
