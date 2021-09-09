@@ -189,3 +189,27 @@ outline: none;
   white-space: inherit;
   line-height: 1;
 }
+
+.caixa1 {
+  background-image: url(../img/banner-mobile.jpg);
+}
+
+.caixa2 {
+  background-image: url(../img/banner-mobile-pedido.jpg);
+}
+
+.caixa4 {
+  background-image: url(../img/banner-mobile-quemsomos.jpg);
+}
+
+.time {
+  height: 60vh;
+  width: 100%;
+}
+
+picture .descricao {
+  font-size: 1rem;
+}
+.video {
+  width: 100%;
+}

@@ -11,8 +11,9 @@ body, html {
     color: #011627;
     background-color: #573428;
     text-align: justify;
-    padding: 50px 80px;
+    padding: 100px 80px;
     text-align: center;
+    align-items: center;
     height: auto;
 }
 
@@ -31,6 +32,16 @@ p {
     font-size: 1.75rem;
     font-weight: 100;
 }
+
+p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p a:hover {
+    color: #DFDFE2;
+}
+
 
 #voltainicio{
     position: fixed;
