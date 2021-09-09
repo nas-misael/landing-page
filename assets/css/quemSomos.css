@@ -19,7 +19,7 @@
 
 .time p {
     line-height: 1.5;
-    font-size: max(1rem, 1.2vw);
+    font-size: max(1rem, 1vw);
     font-family: 'Roboto';
     color: #111;
     font-weight: bold;

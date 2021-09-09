@@ -211,5 +211,5 @@ picture .descricao {
   font-size: 1rem;
 }
 .video {
-  width: 100%;
+  width: auto;
 }
